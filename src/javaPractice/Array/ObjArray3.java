@@ -19,5 +19,11 @@ public class ObjArray3 {
 		for (Object o : a) {
             System.out.println(o);
         }
+		
+		//기본 자료형 클래스에 equals 메소드가 재정의 되어 있을까??
+		Integer i1 = new Integer(3);
+		Integer i2 = new Integer(3);
+		System.out.println(i1.equals(i2));
+		
     }
 }
