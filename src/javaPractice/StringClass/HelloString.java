@@ -91,7 +91,7 @@ String origin = " Hello this is String Class methods!";
 	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		String01 obj = new String01();
+		String03 obj = new String03();
 	}
 
 }
