@@ -1,11 +1,11 @@
 package javaPractice.StringClass;
 
+import javaPractice.immutable.*;
+
 public class HelloString {
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		
-		String origin = " Hello this is String Class methods!";
+	public HelloString(){
+String origin = " Hello this is String Class methods!";
 		
 		System.out.println("index 위치의 문자 리턴");
 		System.out.println(origin.charAt(4));	//o
@@ -85,6 +85,12 @@ public class HelloString {
 		
 		System.out.println("Double d값을 문자열로 변환하여 리턴한다.");
 		System.out.println(String.valueOf(6.9));
+	}
+	
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Immutable obj =  new Immutable();
 	}
 
 }
