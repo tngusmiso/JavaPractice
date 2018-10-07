@@ -3,6 +3,7 @@ package javaPractice.StringClass;
 import javaPractice.immutable.*;
 import javaPractice.ObjectClass.*;
 import javaPractice.Person.*;
+import javaPractice.Format.*;
 
 public class HelloString {
 
@@ -92,7 +93,7 @@ String origin = " Hello this is String Class methods!";
 	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Person02 obj = new Person02();
+		Format01 obj = new Format01();
 	}
 
 }
