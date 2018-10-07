@@ -2,6 +2,7 @@ package javaPractice.StringClass;
 
 import javaPractice.immutable.*;
 import javaPractice.ObjectClass.*;
+import javaPractice.Person.*;
 
 public class HelloString {
 
@@ -91,7 +92,7 @@ String origin = " Hello this is String Class methods!";
 	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		String03 obj = new String03();
+		Person01 obj = new Person01();
 	}
 
 }
