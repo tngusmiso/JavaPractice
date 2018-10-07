@@ -25,4 +25,9 @@ public class Person {
          return Objects.equals(this.name, p.name) && this.age == p.age;
          // 참조형 멤버변수는 java.util.Objects를 사용하면 간편하다.
      }
+     
+     @Override
+     public String toString() {
+         return String.format("Person{name=\"%s\", age=%d}", name, age);
+     }
 }
