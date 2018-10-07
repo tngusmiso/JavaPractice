@@ -3,10 +3,10 @@ package javaPractice.Practic01;
 public class Example04 {
     static String removeO(String s) {
     	String newStr;
-    	newStr = s.replace('o', ' ' );
-    	newStr = newStr.replace('O', ' ' );
+    	newStr = s.replace('o', '\0' );
+    	newStr = newStr.replace('O', '\0' );
     	
-    	return newStr.trim();
+    	return newStr;
     }
     
     public static void main(String[] args) {
