@@ -1,6 +1,7 @@
 package javaPractice.StringClass;
 
 import javaPractice.immutable.*;
+import javaPractice.ObjectClass.*;
 
 public class HelloString {
 
@@ -90,7 +91,7 @@ String origin = " Hello this is String Class methods!";
 	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Immutable obj =  new Immutable();
+		HelloObject obj = new HelloObject();
 	}
 
 }
