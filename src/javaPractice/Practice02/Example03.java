@@ -19,10 +19,11 @@ public class Example03 {
 		
 		for(int i=0;i<a.length;i++) {
 			System.out.print("[ ");
+			
 			for(int j = 0; j<a[i].length;j++)
 				System.out.printf("%02d " , 3*i+j);
-			System.out.println("]");
 			
+			System.out.println("]");
 		}
     }
     
