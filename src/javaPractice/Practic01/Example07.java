@@ -21,6 +21,7 @@ class Data {
     public boolean equals(Object obj) {
     	if (obj instanceof Data == false) return false;
         Data d = (Data)obj;
+        
         return this.weight==d.weight && Objects.equals(this.name, d.name) 
         		&& this.enabled==d.enabled && Objects.equals(this.startDate, d.startDate);
     }
