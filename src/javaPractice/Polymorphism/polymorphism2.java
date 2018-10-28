@@ -19,7 +19,7 @@ package javaPractice.Polymorphism;
 //		System.out.println("ChildTwo method1()");
 //	}
 //}
-//
+//p
 //class ChildThree extends Parent{
 //	//오버라이드 안함 
 //}
