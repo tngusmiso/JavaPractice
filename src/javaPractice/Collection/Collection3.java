@@ -1,6 +1,6 @@
 package javaPractice.Collection;
 
-import java.util.Arrays;
+//import java.util.Arrays;
 import java.util.Collection;
 import java.util.LinkedList;
 import java.util.ArrayList;
@@ -13,8 +13,10 @@ public class Collection3 {
 	}
 	
 	static void printCollection(Collection<String> c) {
-		Object[] a = c.toArray();	// 배열로 바꾸기 
-		String s = Arrays.toString(a);	//문자열로 바꾸기 
+		// Object[] a = c.toArray();	// 배열로 바꾸기 
+		// String s = Arrays.toString(a); // 문자열로 바꾸기 
+		
+		String s = c.toString();	// Collection 자체에도 문자열로 바꾸는 함수가 있다.  
 		System.out.println(s);
 	}
 	
